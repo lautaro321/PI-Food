@@ -1,0 +1,94 @@
+
+.background{
+ background-image: url("https://img.freepik.com/foto-gratis/vegetales-puestos-izquierda-pizarra-negra_1220-685.jpg?size=626&ext=jpg");
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ width: 100%;
+ overflow: hidden;
+ height: 100%;
+ scroll-behavior: smooth;
+ background-attachment: fixed;
+}
+
+.firstContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.homeTitle {
+    color: rgb(235, 10, 10);
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    text-align: left;    
+    align-self: left;
+    padding-right: 50%;
+  
+}
+
+.button {
+    background-color: rgba(255, 255, 255, 0.541);
+    color: rgb(43, 24, 207);
+    font-size: 25px;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    border-radius: 100px;
+    border: #fff solid 3px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    text-align: justify;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    margin-top: 50px;
+}
+
+.button:hover {
+    background-color: rgb(13, 26, 204);
+    color: #dd6910;
+    transition-delay: 0.2s;
+    transition: 0.8s;
+}
+
+.secondContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 60px;
+}
+
+.selectBar{
+    border-style: double;
+    height: 30px;
+    width: 230px;
+    font-size: 20px;
+    font-weight: 200;
+    background-color: rgb(153, 88, 153);
+    color:rgb(243, 243, 243)
+}
+
+.paginadoContainer {
+    align-content: center;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.recipeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.diet {
+    display: inline;
+
+}

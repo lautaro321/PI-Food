@@ -1,0 +1,58 @@
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    width: 18rem; 
+    /* ver si la heigth conviene que sea "auto" */
+    height: auto;
+    align-items: center;
+    border-width: 0.2rem;
+    border-style: outset;
+    background-size:cover;
+    border-radius: 10px;
+    transition: transform .5s;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-right: 2px;
+    margin-left: 2px;
+    background-color: rgba(68, 4, 102, 0.87);
+    text-decoration: none;
+}
+
+.mainContainer:hover{
+    transform: scale(1.1);
+}
+
+.innerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;    
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    margin-left: 2px;
+    text-decoration: none;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bolder;
+    align-items: center;
+    text-decoration: none;
+    color:honeydew
+
+}
+
+.diets {
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+    color: white;
+}
+
+.image {
+    width: 18rem;
+    height: 200;
+    border-radius: 10px;
+}

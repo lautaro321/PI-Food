@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    align-items: center;
+
+}
+
+.textBox{
+    border-style: double;
+    height: 30px;
+    width: 300px;
+    font-size: 20px;
+    font-weight: 200;
+    background-color: rgba(153, 88, 153, 0.849);
+    color:rgb(243, 243, 243)
+}
+
+.button{
+    border-style:groove;
+    display: inline-block;
+    background-color:rgba(255, 255, 255, 0.514);
+    color:rgba(228, 20, 20, 0.986);
+    height: 30px;
+    font-size: 25px;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    margin-top: 1px;
+    margin-left: 10px;
+    font-weight: bold;
+
+}
+
+.button:hover{
+    color:rgb(13, 77, 216);
+    cursor: pointer;
+}
