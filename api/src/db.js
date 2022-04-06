@@ -17,7 +17,7 @@ const sequelize = new Sequelize(DATABASE_URL, {
     },
     
   },
-  
+  ssl: true,
 });
 const basename = path.basename(__filename);
 
